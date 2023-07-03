@@ -62,63 +62,48 @@
 			<!-- Songs -->
 			<dir name = "songs">
 				<!-- lo-fight charts -->
-				<file name = "1.1e.cht" type = "data" source = "iso/songs/lo-fight/lo-fight-easy.json.cht"/>
 				<file name = "1.1n.cht" type = "data" source = "iso/songs/lo-fight/lo-fight.json.cht"/>
 				<file name = "1.1h.cht" type = "data" source = "iso/songs/lo-fight/lo-fight-hard.json.cht"/>
 				<!-- overhead charts -->
-				<file name = "1.2e.cht" type = "data" source = "iso/songs/overhead/overhead-easy.json.cht"/>
 				<file name = "1.2n.cht" type = "data" source = "iso/songs/overhead/overhead.json.cht"/>
 				<file name = "1.2h.cht" type = "data" source = "iso/songs/overhead/overhead-hard.json.cht"/>
 				<!-- ballistic charts -->
-				<file name = "1.3e.cht" type = "data" source = "iso/songs/ballistic/ballistic-easy.json.cht"/>
 				<file name = "1.3n.cht" type = "data" source = "iso/songs/ballistic/ballistic.json.cht"/>
 				<file name = "1.3h.cht" type = "data" source = "iso/songs/ballistic/ballistic-hard.json.cht"/>
 				<!-- ballistic-remix charts -->
-				<file name = "1.4e.cht" type = "data" source = "iso/songs/ballistic-remix/ballistic-remix-easy.json.cht"/>
 				<file name = "1.4n.cht" type = "data" source = "iso/songs/ballistic-remix/ballistic-remix.json.cht"/>
 				<file name = "1.4h.cht" type = "data" source = "iso/songs/ballistic-remix/ballistic-remix-hard.json.cht"/>
 				<!-- underground charts -->
-				<file name = "1.5e.cht" type = "data" source = "iso/songs/underground/underground-easy.json.cht"/>
 				<file name = "1.5n.cht" type = "data" source = "iso/songs/underground/underground.json.cht"/>
 				<file name = "1.5h.cht" type = "data" source = "iso/songs/underground/underground-hard.json.cht"/>
 				<!-- lowrise charts -->
-				<file name = "1.6e.cht" type = "data" source = "iso/songs/low-rise/low-rise-easy.json.cht"/>
 				<file name = "1.6n.cht" type = "data" source = "iso/songs/low-rise/low-rise.json.cht"/>
 				<file name = "1.6h.cht" type = "data" source = "iso/songs/low-rise/low-rise-hard.json.cht"/>
 				<!-- hungry charts -->
-				<file name = "1.7e.cht" type = "data" source = "iso/songs/hungry/hungry-easy.json.cht"/>
 				<file name = "1.7n.cht" type = "data" source = "iso/songs/hungry/hungry.json.cht"/>
 				<file name = "1.7h.cht" type = "data" source = "iso/songs/hungry/hungry-hard.json.cht"/>
 				<!-- lo-fight-hq charts -->
-				<file name = "1.8e.cht" type = "data" source = "iso/songs/lo-fight-hq/lo-fight-hq-easy.json.cht"/>
 				<file name = "1.8n.cht" type = "data" source = "iso/songs/lo-fight-hq/lo-fight-hq.json.cht"/>
 				<file name = "1.8h.cht" type = "data" source = "iso/songs/lo-fight-hq/lo-fight-hq-hard.json.cht"/>
 				<!-- overhead-hq charts  -->
-				<file name = "1.9e.cht" type = "data" source = "iso/songs/overhead-hq/overhead-hq-easy.json.cht"/>
 				<file name = "1.9n.cht" type = "data" source = "iso/songs/overhead-hq/overhead-hq.json.cht"/>
 				<file name = "1.9h.cht" type = "data" source = "iso/songs/overhead-hq/overhead-hq-hard.json.cht"/>
 				<!-- ballistic-hq charts -->
-				<file name = "1.10e.cht" type = "data" source = "iso/songs/ballistic-hq/ballistic-hq-easy.json.cht"/>
 				<file name = "1.10n.cht" type = "data" source = "iso/songs/ballistic-hq/ballistic-hq.json.cht"/>
 				<file name = "1.10h.cht" type = "data" source = "iso/songs/ballistic-hq/ballistic-hq-hard.json.cht"/>
 				<!-- ballistic-beta-mix charts -->
-				<file name = "1.11e.cht" type = "data" source = "iso/songs/ballistic-beta-mix/ballistic-beta-mix-easy.json.cht"/>
 				<file name = "1.11n.cht" type = "data" source = "iso/songs/ballistic-beta-mix/ballistic-beta-mix.json.cht"/>
 				<file name = "1.11h.cht" type = "data" source = "iso/songs/ballistic-beta-mix/ballistic-beta-mix-hard.json.cht"/>
 				<!-- underground-hq charts -->
-				<file name = "1.12e.cht" type = "data" source = "iso/songs/underground-hq/underground-hq-easy.json.cht"/>
 				<file name = "1.12n.cht" type = "data" source = "iso/songs/underground-hq/underground-hq.json.cht"/>
 				<file name = "1.12h.cht" type = "data" source = "iso/songs/underground-hq/underground-hq-hard.json.cht"/>
 				<!-- underground-in-game-mix charts -->
-				<file name = "1.13e.cht" type = "data" source = "iso/songs/underground-in-game-mix/underground-in-game-mix-easy.json.cht"/>
 				<file name = "1.13n.cht" type = "data" source = "iso/songs/underground-in-game-mix/underground-in-game-mix.json.cht"/>
 				<file name = "1.13h.cht" type = "data" source = "iso/songs/underground-in-game-mix/underground-in-game-mix-hard.json.cht"/>
 				<!-- low-rise-hq charts-->
-				<file name = "1.14e.cht" type = "data" source = "iso/songs/low-rise-hq/low-rise-hq-easy.json.cht"/>
 				<file name = "1.14n.cht" type = "data" source = "iso/songs/low-rise-hq/low-rise-hq.json.cht"/>
 				<file name = "1.14h.cht" type = "data" source = "iso/songs/low-rise-hq/low-rise-hq-hard.json.cht"/>
 				<!-- hungry-hq charts-->
-				<file name = "1.15e.cht" type = "data" source = "iso/songs/hungry-hq/hungry-hq-easy.json.cht"/>
 				<file name = "1.15n.cht" type = "data" source = "iso/songs/hungry-hq/hungry-hq.json.cht"/>
 				<file name = "1.15h.cht" type = "data" source = "iso/songs/hungry-hq/hungry-hq-hard.json.cht"/>
 				<!-- faucet charts-->
