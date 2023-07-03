@@ -1,0 +1,4 @@
+1 xa lo-fight/Vocals.xa 1 0
+1 xa lo-fight/Inst.xa 1 1
+1 xa overhead/Vocals.xa 1 2
+1 xa overhead/Inst.xa 1 3

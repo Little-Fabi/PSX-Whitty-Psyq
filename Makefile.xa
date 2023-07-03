@@ -1,0 +1,50 @@
+all: \
+    iso/music/menu.xa \
+    iso/songs/1.xa \
+    iso/songs/2.xa \
+    iso/songs/3.xa \
+    iso/songs/4.xa \
+    iso/songs/5.xa \
+    iso/songs/6.xa \
+    iso/songs/7.xa \
+    iso/songs/8.xa \
+    iso/songs/9.xa \
+
+# XA converts
+iso/%.xa: iso/%.ogg
+	tools/psxavenc/psxavenc -f 37800 -t xa -b 4 -c 2 -F 1 -C 0 $< $@ 
+
+iso/%.xa:
+	tools/xainterleave/xainterleave $@ $^
+
+# Menu
+iso/music/menu.xa: iso/music/freakymenu.xa iso/music/gameover.xa
+
+# 1
+iso/songs/1.xa: iso/songs/lo-fight/Inst.xa iso/songs/lo-fight/Vocals.xa iso/songs/overhead/Inst.xa iso/songs/overhead/Vocals.xa
+
+# 2
+iso/songs/2.xa: iso/songs/ballistic/Inst.xa iso/songs/ballistic/Vocals.xa iso/songs/ballistic-remix/Inst.xa iso/songs/ballistic-remix/Vocals.xa
+
+# 3
+iso/songs/3.xa: iso/songs/underground/Inst.xa iso/songs/underground/Vocals.xa iso/songs/low-rise/Inst.xa iso/songs/low-rise/Inst.xa iso/songs/low-rise/Vocals.xa
+
+# 4
+iso/songs/4.xa: iso/songs/hungry/Inst.xa iso/songs/hungry/Vocals.xa iso/songs/lo-fight-hq/Inst.xa iso/songs/lo-fight-hq/Vocals.xa
+
+# 5
+iso/songs/5.xa: iso/songs/overhead-hq/Inst.xa iso/songs/overhead-hq/Vocals.xa iso/songs/ballistic-hq/Inst.xa iso/songs/ballistic-hq/Vocals.xa
+
+# 6
+iso/songs/6.xa: iso/songs/ballistic-beta-mix/Inst.xa iso/songs/ballistic-beta-mix/Vocals.xa iso/songs/underground-hq/Inst.xa iso/songs/underground-hq/Vocals.xa
+
+# 7
+iso/songs/7.xa: iso/songs/underground-in-game-mix/Inst.xa iso/songs/underground-in-game-mix/Vocals.xa iso/songs/low-rise-hq/Inst.xa iso/songs/low-rise-hq/Vocals.xa
+
+# 8
+iso/songs/8.xa: iso/songs/hungry-hq/Inst.xa iso/songs/hungry-hq/Vocals.xa iso/songs/faucet/Inst.xa iso/songs/faucet/Vocals.xa
+
+# 9
+iso/songs/9.xa: iso/songs/faucet-hq/Inst.xa iso/songs/faucet-hq/Vocals.xa
+
+
