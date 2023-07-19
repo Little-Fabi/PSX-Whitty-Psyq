@@ -674,23 +674,23 @@ void Menu_Tick(void)
 				u32 col;
 				const char *text;
 			} menu_options[] = {
-				{{174,0,34,30}, StageId_LoFight, 0xFFA5004A, "LO FIGHT"},
-				{{140,0,33,39}, StageId_Overhead, 0xFFAF66CE, "OVERHEAD"},
-				{{140,0,33,39}, StageId_Ballistic, 0xFFAF66CE, "BALLISTIC"},
-				{{140,0,33,39}, StageId_BallisticRemix, 0xFFAF66CE, "BALLISTIC REMIX"},
-				{{174,0,34,30}, StageId_Underground, 0xFFA5004A, "UNDERGROUND"},
-				{{174,0,34,30}, StageId_LowRise, 0xFFA5004A, "LOW RISE"},
-				{{174,0,34,30}, StageId_Hungry, 0xFFA5004A, "HUNGRY"},
-				{{174,0,34,30}, StageId_LoFightHQ, 0xFFA5004A, "LO FIGHT HQ"},
-				{{174,0,34,30}, StageId_OverheadHQ, 0xFFA5004A, "OVERHEAD HQ"},
-				{{174,0,34,30}, StageId_BallisticHQ, 0xFFA5004A, "BALLISTIC HQ"},
-				{{174,0,34,30}, StageId_BallisticBetaMix, 0xFFA5004A, "BALLISTIC BETA MIX"},
-				{{174,0,34,30}, StageId_UndergroundHQ, 0xFFA5004A, "UNDERGROUND HQ"},
-				{{174,0,34,30}, StageId_UndergroundInGameMix, 0xFFA5004A, "UNDERGROUND IN GAME MIX"},
-				{{174,0,34,30}, StageId_LowRiseHQ, 0xFFA5004A, "LOW RISE HQ"},
-				{{174,0,34,30}, StageId_HungryHQ, 0xFFA5004A, "HUNGRY HQ"},
-				{{174,0,34,30}, StageId_Faucet, 0xFFA5004A, "FAUCET"},
-				{{174,0,34,30}, StageId_FaucetHQ, 0xFFA5004A, "FAUCET HQ"}
+				{{174,0,34,30}, StageId_LoFight, 0xFFcc0000, "LO FIGHT"},
+				{{140,0,33,39}, StageId_Overhead, 0xFFcc0000, "OVERHEAD"},
+				{{140,0,33,39}, StageId_Ballistic, 0xFFcc0000, "BALLISTIC"},
+				{{140,0,33,39}, StageId_BallisticRemix, 0xFFcc0000, "BALLISTIC REMIX"},
+				{{174,0,34,30}, StageId_Underground, 0xFF00d4b4, "UNDERGROUND"},
+				{{174,0,34,30}, StageId_LowRise, 0xFF00d4b4, "LOW RISE"},
+				{{174,0,34,30}, StageId_Hungry, 0xFF00d4b4, "HUNGRY"},
+				{{174,0,34,30}, StageId_LoFightHQ, 0xFFcc0000, "LO FIGHT HQ"},
+				{{174,0,34,30}, StageId_OverheadHQ, 0xFFcc0000, "OVERHEAD HQ"},
+				{{174,0,34,30}, StageId_BallisticHQ, 0xFFcc0000, "BALLISTIC HQ"},
+				{{174,0,34,30}, StageId_BallisticBetaMix, 0xFFcc0000, "BALLISTIC BETA MIX"},
+				{{174,0,34,30}, StageId_UndergroundHQ, 0xFF00d4b4, "UNDERGROUND HQ"},
+				{{174,0,34,30}, StageId_UndergroundInGameMix, 0xFF00d4b4, "UNDERGROUND IN GAME MIX"},
+				{{174,0,34,30}, StageId_LowRiseHQ, 0xFF00d4b4, "LOW RISE HQ"},
+				{{174,0,34,30}, StageId_HungryHQ, 0xFF00d4b4, "HUNGRY HQ"},
+				{{174,0,34,30}, StageId_Faucet, 0xFF00d93b, "FAUCET"},
+				{{174,0,34,30}, StageId_FaucetHQ, 0xFF00d93b, "FAUCET HQ"}
 			};
 			
 			//Initialize page
@@ -878,7 +878,9 @@ void Menu_Tick(void)
 			} credits_options[] = {
 				{true, false, NULL, 0xFFFFFFFF, "CREDITS", ""},
 				{false, false, NULL, 0xFF57ff89, "Little_Fabi", "Port manager."},
-				{false, false, NULL, 0xFFfff129, "Pichuman10", "Help me a lot because I didn't know how to port mods.\nthank you so much."},
+				{false, false, NULL, 0xFFfff129, "Pichuman10", "He help me a lot because I didn't know how to port mods.\nthank you so much."},
+				{false, true, 2, 0xFF2CB2E5, "LuckyAzure", "He made a GF sprite so he is here LOL."},
+				{false, true, 3, 0xFFC9AE69, "UNSTOP4BLE", "He basically helped with something but isn't useful, cool guy."},
 				{true, false, NULL, 0xFFFFFFFF, "ENGINE CREDITS", ""},
 				{false, true, 0, 0xFFF6D558, "CuckyDev", "The original creator of PSXFunkin."},
 				{false, true, 1, 0xFFB60B00, "spicyjpeg", "He made the save system and sound effects work."},
